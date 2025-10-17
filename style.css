@@ -1,0 +1,818 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+#page {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.elementor {
+    width: 100%;
+}
+
+.elementor-section {
+    padding: 10px 0;
+}
+
+.elementor-container {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+.logo {
+    width: 267.52px;
+    height: 60px;
+}
+
+#menu-menu1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+#menu-menu1 li a {
+    text-decoration: none;
+    color: #000A2D;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.elementor-button-link {
+    background-color: #3267FF;
+    color: #FFFFFF;
+    padding: 17px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Top bar */
+.elementor-icon-list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.elementor-icon-list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elementor-icon-list-item span {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    color: #3267FF;
+}
+
+.elementor-icon-list-item a {
+    text-decoration: none;
+    color: #636468;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(90deg, #FFFFFF 74%, #F1F8FF 74%);
+}
+
+.hero-section .elementor-container {
+    padding: 70px 0;
+}
+
+.hero-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.hero-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.hero-section .subtitle span {
+    margin-right: 10px;
+}
+
+.hero-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 68px;
+    color: #000A2D;
+    letter-spacing: -2.2px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.hero-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    width: 450px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 100px 0;
+}
+
+.services-section .elementor-container {
+    gap: 30px;
+}
+
+.services-section .elementor-widget-wrap {
+    width: 33.33%;
+    text-align: center;
+}
+
+.services-section .jkit-icon-box-wrapper {
+    padding: 40px;
+    border-radius: 4px;
+    background-color: #F1F8FF;
+}
+
+.services-section .icon {
+    background-color: #F1F8FF;
+    border: 1px solid rgba(152, 179, 255, 0.23);
+    border-radius: 4px;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.services-section h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000A2D;
+    margin: 0 0 15px;
+}
+
+.services-section p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* About Section */
+.about-section {
+    padding: 100px 0;
+}
+
+.about-section .elementor-container {
+    gap: 30px;
+}
+
+.about-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.about-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.about-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.about-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.about-section .feature-item {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000A2D;
+}
+
+.about-section .feature-item span {
+    color: #3267FF;
+    margin-right: 10px;
+}
+
+.about-section .elementor-button-link.secondary {
+    background-color: rgba(152, 179, 255, 0.07);
+    color: #3267FF;
+    border: 1px solid rgba(152, 179, 255, 0.23);
+}
+
+/* Choose Us Section */
+.choose-us-section {
+    padding: 100px 0;
+}
+
+.choose-us-section .elementor-container {
+    gap: 30px;
+}
+
+.choose-us-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.choose-us-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.choose-us-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.choose-us-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.choose-us-section .progress-skill-bar {
+    margin-bottom: 20px;
+}
+
+.choose-us-section .progress-skill-bar p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000A2D;
+    margin: 0 0 10px;
+}
+
+.choose-us-section .skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #F1F8FF;
+    border-radius: 4px;
+    position: relative;
+}
+
+.choose-us-section .skill-track {
+    height: 100%;
+    background-color: #3267FF;
+    border-radius: 4px;
+}
+
+.choose-us-section .progress-skill-bar span {
+    position: absolute;
+    right: -35px;
+    top: -25px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+}
+
+.choose-us-section .draw-line {
+    position: absolute;
+    bottom: 130px;
+    left: 430px;
+}
+
+/* Consultation Section */
+.consultation-section {
+    padding: 100px 0;
+    background-image: url('images/section_elementor-section_1.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.consultation-section .elementor-widget-wrap {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 20px 0px rgba(0, 60, 179, 0.13);
+}
+
+.consultation-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #000A2D;
+    line-height: 1.1;
+    margin: 0 0 20px;
+}
+
+.consultation-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.consultation-section .working-hours {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.consultation-section .day h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000A2D;
+    margin: 0 0 10px;
+}
+
+.consultation-section .day p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    margin: 0;
+}
+
+/* Fun Facts Section */
+.fun-facts-section {
+    background-color: #F1F8FF;
+    padding: 100px 0;
+}
+
+.fun-facts-section .elementor-container {
+    gap: 30px;
+}
+
+.fun-facts-section .elementor-widget-wrap {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fun-facts-section .elementor-widget-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fun-facts-section .number-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.fun-facts-section .number {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    color: #000A2D;
+}
+
+.fun-facts-section .plus {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #3267FF;
+}
+
+.fun-facts-section p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    margin: 0;
+}
+
+/* Services Section 2 */
+.services-section-2 {
+    padding: 100px 0;
+}
+
+.services-section-2 .elementor-container:first-child {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-section-2 .elementor-container:first-child .elementor-widget-wrap {
+    width: 100%;
+}
+
+.services-section-2 .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.services-section-2 .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.services-section-2 .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.services-section-2 .elementor-container {
+    gap: 30px;
+}
+
+.services-section-2 .elementor-widget-wrap {
+    width: 33.33%;
+}
+
+.services-section-2 .jkit-icon-box-wrapper {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.services-section-2 .jkit-icon-box-wrapper img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.services-section-2 .icon-box {
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.services-section-2 h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000A2D;
+    margin: 0 0 15px;
+}
+
+.services-section-2 p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.services-section-2 a {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3267FF;
+    text-decoration: none;
+}
+
+.services-section-2 a span {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+/* Dedicated Section */
+.dedicated-section {
+    padding: 100px 0;
+    background-image: url('images/section_elementor-section_1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.dedicated-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.dedicated-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid rgba(152, 179, 255, 0.34);
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.dedicated-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.dedicated-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+/* Blogs Section */
+.blogs-section {
+    padding: 100px 0;
+}
+
+.blogs-section .elementor-container:first-child {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blogs-section .elementor-container:first-child .elementor-widget-wrap {
+    width: 100%;
+}
+
+.blogs-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.blogs-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.blogs-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.blogs-section .elementor-container {
+    gap: 30px;
+}
+
+.blogs-section .jkit-post {
+    width: 33.33%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.blogs-section .jkit-thumb {
+    position: relative;
+}
+
+.blogs-section .jkit-thumb img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blogs-section .jkit-post-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    padding: 7px 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3267FF;
+    border-radius: 0 4px 0 0;
+}
+
+.blogs-section .jkit-postblock-content {
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.blogs-section h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000A2D;
+    line-height: 1.2;
+    margin: 0 0 15px;
+}
+
+.blogs-section p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.blogs-section .jkit-readmore {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3267FF;
+    text-decoration: none;
+    background-color: #3267FF;
+    color: #FFFFFF;
+    padding: 17px 36px;
+    border-radius: 4px;
+}
+
+.blogs-section .jkit-readmore span {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+/* Happy Client Section */
+.happy-client-section {
+    padding: 100px 0;
+    background-color: #F1F8FF;
+    background-image: url(images/div_elementor-background-overlay_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.happy-client-section .elementor-container {
+    align-items: flex-end;
+}
+
+.happy-client-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.happy-client-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid rgba(152, 179, 255, 0.34);
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.happy-client-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.happy-client-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    padding: 100px 0;
+}
+
+.testimonial-section .elementor-container {
+    gap: 30px;
+}
+
+.testimonial-section .elementor-widget-wrap {
+    width: 50%;
+}
+
+.testimonial-section .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3267FF;
+    border: 1px solid #EEEEEE;
+    padding: 6px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.testimonial-section .heading-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #000A2D;
+    letter-spacing: -2.88px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.testimonial-section .description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: #636571;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+.testimonial-card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 20px 0px rgba(0, 60, 179, 0.13);
+    margin-bottom: 30px;
+}
+
+.testimonial-card p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 17px;
+    color: #636571;
+    line-height: 1.7;
+    margin: 0 0 30px;
+}
+
+.testimonial-card .author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial-card .author h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000A2D;
+    margin: 0 0 5px;
+}
+
+.testimonial-card .author p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    color: #636571;
+    margin: 0;
+}
